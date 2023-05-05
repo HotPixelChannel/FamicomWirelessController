@@ -64,7 +64,7 @@ void initRadio(void) {
   NRF24L01_setChannel(0x66);
   NRF24L01_setPayloadSize(1);
   NRF24L01_setRate(RF_1MBPS);
-  NRF24L01_setPA(RF_PA_MAX);
+  NRF24L01_setPA(RF_PA_MID);
   NRF24L01_setAutoAck(0);
   NRF24L01_TX_Mode();
 }

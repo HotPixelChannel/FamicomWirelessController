@@ -100,9 +100,8 @@ void main(void) {
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23) {
   TIM4_ClearFlag(TIM4_FLAG_UPDATE);
 
-  TIM4_INT_counter++;
-  // Защита от "дребезга" в случае кратковременной потери связи
-  if (TIM4_INT_counter > 1200 & bufJ!=nullByte) {
+  TIM4_INT_counter++; 
+  if (TIM4_INT_counter > 1200 & bufJ!=nullByte) {  // Защита от "дребезга" в случае кратковременной потери связи
     TIM4_INT_counter = 0;
     state = 0;
   }

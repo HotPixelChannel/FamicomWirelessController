@@ -1,18 +1,18 @@
-"C:\NES_joy_final\upd\Receiver\joypad.c"
+"R:\Рабочая\Схемки\NES wireless joy\git\FamicomWirelessController\Software\Receiver\joypad.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\NES_joy_final\upd\Receiver\..
+R:\Рабочая\Схемки\NES wireless joy\git\FamicomWirelessController\Software\Receiver\..
 -I
-C:\NES_joy_final\upd\Receiver\..\Libraries\STM8S_StdPeriph_Driver\inc
+R:\Рабочая\Схемки\NES wireless joy\git\FamicomWirelessController\Software\Receiver\..\Libraries\STM8S_StdPeriph_Driver\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\stm8 —old\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\stm8 —old\inc\c
 -I
-C:\NES_joy_final\upd
+R:\Рабочая\Схемки\NES wireless joy\git\FamicomWirelessController\Software
 -I
-C:\NES_joy_final\upd\Libraries\STM8S_StdPeriph_Driver\inc
+R:\Рабочая\Схемки\NES wireless joy\git\FamicomWirelessController\Software\Libraries\STM8S_StdPeriph_Driver\inc
 -DSTM8S103=0
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
@@ -226,8 +226,8 @@ C:\NES_joy_final\upd\Libraries\STM8S_StdPeriph_Driver\inc
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593160
--D__DATE__="Mar 28 2023"
--D__TIME__="21:42:13"
+-D__DATE__="May  5 2023"
+-D__TIME__="15:45:07"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
