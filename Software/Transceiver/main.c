@@ -2,7 +2,7 @@
 	Dendy wireless controller (Transmitter)
 	ver. 1.0
 	(C) Roman V, 2023
-	github.com
+	https://github.com/HotPixelChannel/FamicomWirelessController
 **/
 
 #include "stm8s.h"
