@@ -51,11 +51,11 @@ void initRadio() {
   0xb3
 };
 
-  NRF24L01_setRxAddress(txAddr, 5);
+  NRF24L01_setRxAddress(txAddr2, 5);
   NRF24L01_setChannel(0x66);
   NRF24L01_setPayloadSize(1);
   NRF24L01_setRate(RF_1MBPS);
-  NRF24L01_setPA(RF_PA_MIN);
+  NRF24L01_setPA(RF_PA_MID);
   NRF24L01_setAutoAck(0);
   NRF24L01_RX_Mode();
 }

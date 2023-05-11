@@ -60,7 +60,7 @@ void initRadio(void) {
     error();
   }
 
-  NRF24L01_setTxAddress(txAddr, 5);
+  NRF24L01_setTxAddress(txAddr2, 5);
   NRF24L01_setChannel(0x66);
   NRF24L01_setPayloadSize(1);
   NRF24L01_setRate(RF_1MBPS);
